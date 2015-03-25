@@ -7,10 +7,10 @@ dependencies:
   browser: any
   markdown: any
   polymer: any
-  script_inliner: any
+  #script_inliner: any
   timeline:
       git: https://github.com/jleahred/timeline.git
 transformers:
-- script_inliner
+#- script_inliner
 - polymer:
     entry_points: web/timeline/index.html
